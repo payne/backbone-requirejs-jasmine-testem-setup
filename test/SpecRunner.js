@@ -27,6 +27,7 @@ require(['jquery'], function($) {
   };
 
   specs.push('spec/models/todo_spec');
+  specs.push('spec/matt/hello_spec');
 
   $(function() {
     require(specs, function() {
